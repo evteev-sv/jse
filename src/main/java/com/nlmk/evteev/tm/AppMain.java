@@ -55,7 +55,7 @@ public class AppMain {
             case CMD_ABOUT:
                 return displayAbout();
             case CMD_EXIT:
-                return displayExit();
+                displayExit();
             default:
                 return displayError();
         }
@@ -109,10 +109,9 @@ public class AppMain {
      *
      * @return код стандартного выхода
      */
-    private static int displayExit() {
+    private static void displayExit() {
         System.out.println("Получена команда завершения работы...");
         System.exit(0);
-        return 0;
     }
 
 }

@@ -65,7 +65,8 @@ public class AppMain {
      * Показ сообщения об ошибке
      */
     private static int displayError() {
-        System.out.println("Неподдерживаемый аргумент. наберите команду help для получения списка доступных команд...");
+        System.out.println("Неподдерживаемый аргумент. наберите команду " +
+            "help для получения списка доступных команд...");
         return -1;
     }
 
@@ -84,7 +85,7 @@ public class AppMain {
      * Показ сведений о версиях
      */
     private static int displayVersion() {
-        System.out.println("1.0.0");
+        System.out.println("1.0.5");
         return 0;
     }
 
@@ -106,8 +107,6 @@ public class AppMain {
 
     /**
      * Стандартный выход
-     *
-     * @return код стандартного выхода
      */
     private static void displayExit() {
         System.out.println("Получена команда завершения работы...");

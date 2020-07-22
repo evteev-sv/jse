@@ -23,3 +23,7 @@ mvn clean install
 ```
 java -jar task-manager-1.0.0.jar
 ```
+
+<h2>6. Дополнительные ссылки github</h2>
+
+[jse-06](https://github.com/evteev-sv/jse)
